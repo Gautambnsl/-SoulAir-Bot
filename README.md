@@ -1,10 +1,10 @@
-# **SoulAir Bot** 🚀
+# **AirSoul Bot** 🚀
 
-Welcome to **SoulAir Bot** – your gateway to Soulbound Tokens (SBTs) and real-time network insights from AirDAO! This innovative platform seamlessly integrates SBT minting with a Telegram bot to provide users with a dynamic and interactive experience.
+Welcome to **AirSoul Bot** – your gateway to Soulbound Tokens (SBTs) and real-time network insights from AirDAO! This innovative platform seamlessly integrates SBT minting with a Telegram bot to provide users with a dynamic and interactive experience.
 
 ## **Overview** 🌟
 
-**SoulAir Bot** is a web application designed to offer:
+**AirSoul Bot** is a web application designed to offer:
 
 1. **SBT Minting** 🪙: Easily mint Soulbound Tokens on the first page of our platform.
 2. **Network Data Feed** 📈: Access real-time network updates through our dedicated Telegram bot on the second page.
@@ -41,7 +41,7 @@ Welcome to **SoulAir Bot** – your gateway to Soulbound Tokens (SBTs) and real-
 
 ## **Contributing** 💡
 
-We welcome contributions to **SoulAir Bot**! If you have ideas, suggestions, or want to help improve the project, please check out our [contributing guidelines](CONTRIBUTING.md) and [open an issue](issues).
+We welcome contributions to **AirSoul Bot**! If you have ideas, suggestions, or want to help improve the project, please check out our [contributing guidelines](CONTRIBUTING.md) and [open an issue](issues).
 
 ## **License** 📝
 
@@ -53,5 +53,5 @@ For any questions or support, feel free to reach out to us at [your-email@exampl
 
 ---
 
-Thank you for checking out **SoulAir Bot**! We’re excited to have you on this journey with us. 🌟
+Thank you for checking out **AirSoul Bot**! We’re excited to have you on this journey with us. 🌟
 
