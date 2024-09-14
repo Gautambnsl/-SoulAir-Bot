@@ -23,6 +23,13 @@ const provider = new ethers.JsonRpcProvider(AIRDAO_RPC);
 // Initialize Telegram bot
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
+
+// Webhook endpoint for receiving updates from Telegram
+app.post(`/bot${TELEGRAM_TOKEN}`, (req, res) => {
+  bot.processUpdate(req.body);
+  res.sendStatus(200);
+});
+
 // Command suggestions for Telegram (inline commands)
 bot.setMyCommands([
   { command: '/start', description: 'Start the bot and see the available commands' },
