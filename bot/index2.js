@@ -2,6 +2,16 @@
 const { ethers } = require('ethers');
 const TelegramBot = require('node-telegram-bot-api');
 require('dotenv').config();
+const express = require('express'); // For the webhook server
+
+const PORT = process.env.PORT || 3000; // Define port for the server
+const app = express();
+app.use(express.json());
+
+// Start Express server
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
 // Load environment variables
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
